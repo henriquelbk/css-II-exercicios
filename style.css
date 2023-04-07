@@ -1,24 +1,52 @@
 header{
     border-bottom: 1px solid black;
+    text-align: center;
+  }
+
+  h3{
+    text-align: center;
   }
   
   main{
     width: 800px;
+    text-align: justify;
   }
   
   aside{
     width: 180px;
     border: 1px solid black;
+    position: fixed;
+    right: 0;
+    bottom: 12vh;
   }
   
   footer{
     background-color: black;
     color: white;
     width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 10vh;
+  }
+
+  footer p {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 50%;
+    text-align: center;
+    transform: translate3d(0, 50%, 0);
   }
   
   button{
     background-color: black;
     color: white;
     font-family: serif;
+    cursor: pointer;
+  
   }
+
+  button:active{
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
